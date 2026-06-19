@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I am the admin</title>
+    <meta author="Daniela Gomez">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="intro">
+        <h1>I AM THE ADMIN</h1>
+        <button id="btnIniciar">INICIAR</button>
+    </div>
+
+    <div id="game_container">
+         <div id="tasks">
+            <h2>Tus tareas de hoy (marcar y elegir la opción correcta en al consola, tu jefe te vigila).</h2>
+         <ul id="taskList">
+  <li>
+    <label>
+      <input type="checkbox" data-task="login">
+      Loguearse como admin
+    </label>
+  </li>
+  <li>
+    <label>
+      <input type="checkbox" data-task="status">
+      Comprobar el status de Apache
+    </label>
+  </li>
+  <li>
+    <label>
+      <input type="checkbox" data-task="restart">
+      Reiniciar Apache
+    </label>
+  </li>
+  <li>
+    <label>
+      <input type="checkbox" data-task="ports">
+      Comprobar los puertos abiertos
+    </label>
+  </li>
+  <li>
+    <label>
+      <input type="checkbox" data-task="logs">
+      Ver los logs
+    </label>
+  </li>
+</ul>
+
+
+        </div>
+
+
+        <div id="console">
+              <div id="consoleOutput"></div>
+                <div id="consoleOptions"></div>
+        </div>
+    
+        <div id="score">
+            <h2 id="total">Puntaje:</h2>
+        </div>
+    </div>
+    <div id="postit">
+        <p><strong>Usuario:</strong> admin</p>
+        <p><strong>Password:</strong> 1234</p>
+    </div>
+
+    <div id="clock"></div>
+    <footer>Creado para el curso de Administración de servidores y bbdd - 2026</footer>
+<script src="script.js"></script>
+</body>
+</html>
