@@ -76,31 +76,6 @@ function mostrarOpciones(tarea,chk, label) {
   });
 }
 
-//   const output = document.getElementById("consoleOutput");
-//   if (opcion === correcta) {
-//     output.innerHTML += `<p>$ ${opcion}</p>`;
-//     output.innerHTML += `<p>✔ Comando ejecutado correctamente</p>`;
-//     logConsola(`Comando correcto: ${opcion}`);
-  
-    
-//     label.classList.add("completed");
-//     puntaje += 10;
-//     actualizarScore();
-
-//     chk.disabled = true;
-
-//     // Limpiar opciones de la consola
-//     document.getElementById("consoleOptions").innerHTML = "";
-//   } else {
-//     output.innerHTML += `<p>$ ${opcion}</p>`;
-//     output.innerHTML += `<p>Error!/p>`;
-//     logConsola(`Comando incorrecto: ${opcion}`);
-
-
-//     chk.checked = false;
-//   }
-//       document.getElementById("consoleOptions").innerHTML = "";
-
 function evaluarOpcion(opcion, correcta, chk, label) {
   const output = document.getElementById("consoleOutput");
 
